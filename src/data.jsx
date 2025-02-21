@@ -10,6 +10,7 @@ import {
   } from 'react-icons/io';
   
   // import images
+
   import Features1Img from './assets/img/features-1.png';
   import Features2Img from './assets/img/features-2.png';
   import ChairImg from './assets/img/chair.png';

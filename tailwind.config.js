@@ -5,8 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('./src/assets/img/hero-bg.png')", // Adjust the path to match your image location
+      }
+    },
   },
-  plugins: [require("daisyui")],
+  // plugins: [require("daisyui")],
 }
 
