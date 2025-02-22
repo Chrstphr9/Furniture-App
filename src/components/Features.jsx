@@ -11,7 +11,7 @@ const Features = () => {
          <div className='flex flex-col lg:flex-row lg:gap-x-[100px]'>
 
           {/* image */}
-          <div className='flex-2 order-1 lg:-order-1'>
+          <div className='flex-2 order-1 lg:-order-1 xl:ml-[30px]'>
           <img src={image.type} alt="" />
           </div>
 
