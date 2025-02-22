@@ -13,13 +13,18 @@ const NewItems = () => {
             <div className='flex md:flex-col items-baseline gap-x-6
             mb-6 lg:mb-0'>
               <h2 className='title max-w-[245px] lg:mt-[30px]
-              lg:mb-[90px] xl:ml-[30px]'>{title}</h2>
-              <p>{subtitle}</p>
-              <div>
-                <a href="#">{link}</a>
+              lg:mb-[90px] xl:ml-[30px] ]'>{title}</h2>
+              <p className='max-w-[245px] lg:mb-12'>{subtitle}</p>
+              <div className='hidden lg:flex items-center'>
+                <a className='hover:border-b border-purple-950
+                lg:items-center font-medium transition-all' href="#">{link}</a>
+                <div className='text-3xl'>{icon}</div>
               </div>
             </div>
-            <NewItemsSlider />
+            <div className='lg:max-w-[800px] xl:max-w-[990px]
+            lg:absolute lg:-right-24'>
+              <NewItemsSlider />
+            </div>
       </div>
       </div>
   </section>
