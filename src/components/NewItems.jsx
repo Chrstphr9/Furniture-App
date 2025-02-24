@@ -21,8 +21,7 @@ const NewItems = () => {
                 <div className='text-3xl'>{icon}</div>
               </div>
             </div>
-            <div className='lg:max-w-[800px] xl:max-w-[990px]
-            lg:-right-24'>
+            <div className='lg:ml-[60px]'>
               <NewItemsSlider />
             </div>
       </div>
